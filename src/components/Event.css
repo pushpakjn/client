@@ -1,0 +1,47 @@
+/* Event.css */
+
+/* Style for the main Event component */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style for the EventCard component */
+  .event-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust the width as needed for responsiveness */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .event-card p {
+    color: #555;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .event-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .event-details {
+    padding-top: 20px;
+  }
+  

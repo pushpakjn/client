@@ -1,0 +1,26 @@
+/* CSS for the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add top margin */
+}
+
+/* CSS for the hover button */
+.hover-button {
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none;
+  border-radius: 4px; /* Button border radius */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  font-weight: bold; /* Make the text more bold */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #2674b8; /* New background color on hover */
+  }
+
+  /* Add additional styles as needed */
+}
